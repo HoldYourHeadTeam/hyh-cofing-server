@@ -1,5 +1,5 @@
 server:
-  port: ${PORT}
+  port: ${PORT:8888}
 spring:
   cloud:
     config:
@@ -10,3 +10,4 @@ spring:
           password: ${REPO_ACCOUNT_PASSWORD}
   application:
     name: hyh-config-server
+
